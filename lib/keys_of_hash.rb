@@ -6,5 +6,6 @@ class Hash
          result.push(animal)
       end
     }
+    result
   end
 end
