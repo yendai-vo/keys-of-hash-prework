@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     result = []
     self.map { |animal, location|
       if location == arguments
